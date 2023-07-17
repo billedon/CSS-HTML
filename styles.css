@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+body {
+    background-color: #f1f1f1;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    font-family: 'Roboto', sans-serif;
+
+    font: normal 20px'Roboto', sans-serif;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    a:active {
+      color: blue;
+    }
+
+    a :visited {
+        color: grey;
+    }
+
+h1 {
+    background-color: none;
+    font-size: 400;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 15px;
+    margin: 30px;
+    border: 5px solid red;
+
+}
+.avatar {
+width: 500px;
+border-radius: 30px;
+display: block;
+
+}
+.info p {
+    color: purple;
+    margin: 0;
+    font-style: initial;
+   letter-spacing: 2px;
+   word-spacing: 6px;
+
+}
+/*.social {
+    background: yellow;
+    padding-inline-start: 15px;
+    border: 5px solid red;
+    margin: 30px;
+}*/
+/*.container {
+    max-width: 300px;
+    margin: 700px;
+}
+.box-model div {
+    float: left;
+    background-color: aqua;
+    height: 200px;
+    width: 20%;
+    box-sizing: border-box;
+}*/
+
+.bg-yellow {
+background:#c9b347;
+}
+.bg-green {
+    background: #5bcf65;
+    }
+    .bg-red {
+        background: #be7f7f;
+        }
+
+.card {
+    padding: 15px;
+    margin-bottom: 15px;
+}
+.info {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+.info{
+    text-align: center;
+    display: block;
+}
+}
+
+.social {
+    margin-bottom:5px;
+}
+.card {
+    margin-bottom: 20px;
+}
+.list {
+    list-style: none;
+}
+.list li {
+    margin-bottom: 5px;
+    color: black;
+}
+.tablet {
+    padding-bottom: 10px;
+    width: 100%;
+}
+.list {
+    padding-bottom: 10px;
+    margin-bottom: 15px px;
+}
+.tablet {
+    color: black;
+}
+.link-list {
+    list-style: none;
+    padding-bottom: 10px;
+    border-bottom: 5px solid #f3d439;
+}
+.contact h2 {
+    text-align: center;
+}
+.form-group label {
+display: block;
+font-size: 14px;
+color: darkblue;
+}
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    border-bottom: 5px soled #ff0000;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+    background: transparent;
+    border: none;
+}
+.btn {
+background: #111;
+padding: 15px 10px ;
+color: black;
+border: none;
+cursor: pointer;
+}
